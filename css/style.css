@@ -5,6 +5,11 @@
 /* /Responsive adapt **********************************************************************************************************************************/
 
     @media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+      .container{
+        max-width: 100%;
+        padding-left:20px;
+        padding-right:20px;
+      }
 
     }
     @media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -206,8 +211,70 @@
 
     .longtext{
       line-height: 24px;
-    }   
+    }
 
+    .video {
+      position:relative;
+      padding-bottom:56.25%;
+      padding-top:30px;
+      height:0;
+      overflow:hidden;
+    }
+    
+    .video iframe, .video-container object, .video-container embed {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+
+    .btns{
+      padding: 1rem;
+      color:#34B4E5;
+    }
+
+    .navigation{
+      width: 100%;
+      height: 20px;
+    }
+
+    .contenidor{
+      margin-top: 60px;
+    }
+
+    .titol {
+      font-weight: 500;
+      font-size: 24px;
+    }
+
+    .cover{
+      text-align: center;
+      background-image: linear-gradient(to bottom right, #3CD1A0, #34B4E5);
+      padding: 20px 0;
+      display: inline-block;
+      width: 100%;
+      color:white;
+    }
+
+    .cover2{
+      text-align: center;
+      background-image: linear-gradient(to bottom right, #3CD1A0, #34B4E5);
+      padding: 10px 0;
+      display: inline-block;
+      width: 100%;
+      color:white;
+      font-size: 18px;
+    }
+
+    .mail{
+      text-align: center;
+      font-weight: 300;
+      margin-bottom: 18px;
+      font-size: 16px;
+    }
+
+    
 
 /*  /Custom style **********************************************************************************************************************************/
 
