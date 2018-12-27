@@ -83,14 +83,16 @@
 
 /*  Custom style **********************************************************************************************************************************/
 
+    
+    p{
+      font-size: 1.2rem;
+    }
+
     .card img{
     	margin-top:1rem;
     }
 
-    small{
-    	font-size: 1rem;
-    	color: #bdbdbd;
-    }
+    
 
     a h3{
     	color:#555;
@@ -199,13 +201,8 @@
       margin-bottom: 4em;
     }
 
-    .smaller{
-      font-size: 13px;
-      color:#7e7e7e;
-    }
-
     .smaller-ref{
-      font-size: 12px;
+      font-size: 1.05rem;
       color:#7e7e7e;
     }
 
